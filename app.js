@@ -12,6 +12,7 @@ next();
 
 
 app.use("/product", PrRout);
+app.use("/product", PrRout);
 
 app.get("/",(req,res)=>{
     res.status(200).json({"Message":" ecom-web-3"});
